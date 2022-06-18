@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_general_navs",
+  "info": {
+    "displayName": "Nav",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "Brand_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Nav_Items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable.key-value",
+      "max": 5
+    }
+  }
+}

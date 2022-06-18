@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_only_texts",
+  "info": {
+    "displayName": "OnlyText",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

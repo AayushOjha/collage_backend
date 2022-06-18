@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_reuseable_key_values",
+  "info": {
+    "displayName": "keyValue",
+    "icon": "recycle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_general_quick_links",
+  "info": {
+    "displayName": "Quick_Link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.only-text"
+    },
+    "Links": {
+      "displayName": "QL",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable.ql"
+    }
+  }
+}

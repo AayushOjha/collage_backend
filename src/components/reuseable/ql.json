@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_reuseable_qls",
+  "info": {
+    "displayName": "QL",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable.key-value"
+    }
+  }
+}

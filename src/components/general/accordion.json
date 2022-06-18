@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_general_accordions",
+  "info": {
+    "displayName": "Accordion",
+    "icon": "caret-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.only-text"
+    },
+    "record": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.only-text",
+      "required": true,
+      "min": 1
+    }
+  }
+}

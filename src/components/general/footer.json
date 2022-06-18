@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_general_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CopyRight_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Brand_Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable.key-value",
+      "required": true
+    }
+  }
+}

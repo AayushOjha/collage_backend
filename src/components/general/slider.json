@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_sliders",
+  "info": {
+    "displayName": "Slider",
+    "icon": "band-aid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable.card",
+      "required": true,
+      "min": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_general_simple_images",
+  "info": {
+    "displayName": "Simple_Image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Height": {
+      "type": "integer",
+      "required": true
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.only-text"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slug": {
+      "type": "string"
+    },
+    "Page_Content": {
+      "type": "dynamiczone",
+      "components": [
+        "general.accordion",
+        "general.card-section",
+        "general.only-text",
+        "general.quick-link",
+        "general.simple-image",
+        "general.slider"
+      ]
+    }
+  }
+}
